@@ -1,12 +1,12 @@
 import React from 'react';
-import { Pattern } from './components/pattern/Pattern';
+import { RandomPattern } from './components/random-pattern/RandomPattern';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       {[...Array(28)].map((e, i) => 
-      <Pattern />
+      <RandomPattern />
       )}
     </div>
   );
