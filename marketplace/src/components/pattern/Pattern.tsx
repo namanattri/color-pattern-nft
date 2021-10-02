@@ -14,7 +14,7 @@ const getRandomColor = () => {
 export const Pattern = () => {
   return (
     <div className="pattern">
-      {[...Array(200)].map((e, i) => (<div className="color-cell" style={{backgroundColor: getRandomColor()}}></div>))}
+      {[...Array(100)].map((e, i) => (<div className="color-cell" style={{backgroundColor: getRandomColor()}}></div>))}
     </div>
   );
 }
