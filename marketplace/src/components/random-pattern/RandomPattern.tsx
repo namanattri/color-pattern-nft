@@ -17,7 +17,7 @@ export const RandomPattern = () => {
   useEffect(() => {
     const randomColors = [];
     let i = 0;
-    while(i++ < 100) {
+    while(i++ < 25) {
       randomColors.push(getRandomColor());
     }
     setColors(randomColors);
