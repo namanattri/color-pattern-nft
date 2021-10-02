@@ -1,0 +1,12 @@
+.pattern {
+  background-color: aquamarine;
+  height: 200px;
+  width: 400px;
+}
+
+.color-cell {
+  background-color: rebeccapurple;
+  height: 20px;
+  width: 20px;
+  float: left;
+}
